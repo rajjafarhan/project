@@ -1,0 +1,23 @@
+.mens-arrival{
+    padding-top: 30px;
+
+}
+.womens-arrival{
+    padding-top: 30px;
+}
+@media (max-width:320px){
+    .womens-arrival{
+        padding-top: 8px;
+    }
+}
+
+.card-wrap{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+        width: 100%;
+        max-width: 75%;
+        margin: 0 auto;
+    
+
+}

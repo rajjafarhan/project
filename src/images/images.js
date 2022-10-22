@@ -1,0 +1,1 @@
+export const BLUESHIRT=require("./blue-shirt.jpg")

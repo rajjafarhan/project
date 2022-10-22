@@ -1,0 +1,17 @@
+.button-wrap{
+    width: 100%;
+    
+    text-align: center;
+}
+.button-view-more{
+    width: 13rem;
+    height: 3rem;
+    color: white;
+    background-color: black;
+    border: none;
+    margin: 2rem 0px;
+    margin-right: 5%;
+}
+.button-view-more:hover{
+    color: rgb(254, 76, 177);
+}

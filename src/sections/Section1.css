@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    max-width: 100%;
+    height: 40rem;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxEc6rpyr93Z_7agQfaUw4gUdu-HVvwV3xrH2hljADZZ4YSk8L9LxjmLTKbhUsL50KSEA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section1-wrapper{
+    width: 80%;
+    }
+.sec-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin-left: 10%;
+    padding-top: 13%;
+}
+.sec-text h2{
+    width: 70%;
+    font-size: 50px;
+    font-family: 'Cormorant', serif;
+}
+.sec-text h4{
+    width: 80%;
+    font-size: 20px;
+}
+.sec-text button{
+    width: 40%;
+    height: 45px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 2px;
+}
+.sec-text button:hover{
+    color: rgb(254, 76, 177);
+
+}
+.sec-icons{
+    display: flex;
+    column-gap: 2%;
+    padding-top: 9%;
+}
+.size{
+
+    font-size: 1.6rem;
+}
+
+@media (max-width:320px){
+    .section1{
+        height: 10rem;
+    }
+    
+    .sec-text button{
+
+        width: 62%;
+        height: 30px;
+        color: white;
+        background-color: black;
+        font-size: x-small;
+    }
+    .sec-text h2{
+        font-size: 20px;
+    }
+
+    .sec-icons{
+        display: flex;
+        column-gap: 4%;
+        padding-top: 4%;
+    }
+    .sec-text{
+        gap:3px;
+        padding-top: 4%;
+    }
+    .size{
+
+        font-size: .8rem;
+    }
+
+}
+@media (max-width:769px){
+    .section1{
+        height: 24rem;}
+        .sec-text{
+            row-gap: .7rem;
+        }
+        .sec-text h2{
+            font-size: 25px;
+        }
+        .sec-text h4{
+            width: 70%;
+            font-size: 1.2rem;
+        }
+
+}
+
+@media (max-width:450px){
+    .section1{
+        height: 18rem;
+        background-size:contain;
+
+    }
+    .sec-text{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.8rem;
+        margin-left: 07%;
+        padding-top: 15%;
+    }
+    .sec-text h2{
+        width: 80%;
+ 
+        margin-top: 2%;
+        font-size: 15px;
+    }
+    .sec-text h4{
+        width: 70%;
+        font-size: 10px;
+    }
+    .sec-text button{
+        width: 100px;
+        height: 30px;
+        color: white;
+              font-size: small;
+        background-color: black;
+    }
+    .sec-icons{
+        display: flex;
+        column-gap: 3%;
+        padding-top: 6%;
+    }
+    .size{
+
+        font-size: .8rem;
+    }
+}
+
+
+@media (max-width: 425px){
+.sec-text{
+   
+    padding-top: 13%;
+    row-gap: 0.5rem;
+    
+}
+}

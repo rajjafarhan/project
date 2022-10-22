@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+    
+}
+.heading h2{
+    font-size: 33px;
+    font-weight: 20px;
+    /* font-family: 'Monoton', cursive; */
+    /* font-family: 'Black Ops One', cursive; */
+    /* font-family: 'Rubik Dirt', cursive; */
+    font-family: 'Rubik Distressed', cursive;
+
+
+}
