@@ -11,7 +11,7 @@ import Section4 from '../sections/Section4'
 import Footer from '../sections/Footer'
 import Copyright from '../MyComponents/Copyright'
 import blueshirt from "../images/blue-shirt.jpg"
-import { BLUESHIRT } from '../images/images'
+import { BLUESHIRT, HOODIE } from '../images/images'
 
 const Home = () => {
   return (
@@ -25,7 +25,7 @@ const Home = () => {
       <Heading  title='Men &rsquo; s Arrival' /></div>
       <div className='card-wrap'>
       <Card img={BLUESHIRT} desc="blue stylish-tshirt" price="$95"/>
-      <Card img="https://sc04.alicdn.com/kf/U92e915c9501c412eb6b5abc2b4b8f79df.jpg" desc="black polo shirt" price="$80"/>
+      <Card img={HOODIE} desc="black polo shirt" price="$80"/>
       <Card img="https://i.pinimg.com/474x/a2/ce/58/a2ce58581ed5e7f5d165b77177f51e4d.jpg" desc="black polo shirt" price="$83"/>
       <Card img="https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/1280x1280/products/25833/237774/Fear-Of-Gold-Fashion-Men-Jeans-Hip-Hop-Cool-Streetwear-Biker-Patch-Hole-Ripped-Skinny-Jeans__80161.1549623235.jpg?c=2" desc="black polo shirt" price="$94"/>
       </div>
